@@ -10,6 +10,7 @@ const db = require('./config/keys').mongoURI;
 const users = require("./routes/api/users");
 const tweets = require("./routes/api/tweets");
 const passport = require('passport');
+const path = require('path');
 
 const bodyParser = require('body-parser');
 // setup a basic route so that we can render some information on our page:
